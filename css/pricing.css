@@ -33,15 +33,21 @@
        }
   .pricing-title {
         font-weight: bold;
-    color: #79a207;
+    color: hsl(76, 92%, 33%);
     letter-spacing: .2em;
-    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+        text-align: center;
   }
   .pricing-heading {
+    font-size: 42px;
+    font-weight: bold;
     color: #0d3c00;
     text-align: center;
+
   }
   .pricing-subheading {
+    font-size: 18px;
     color: #191c18;
     text-align: center;
   }
@@ -131,3 +137,18 @@
   .btn-pricing-custom-order :hover {
     background-color: #191c18;
   }
+  @media (min-width: 600px) {
+    .plants-cost_show  {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 900px) {
+    .plants-cost_show  {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 980px) {
+    .plants-cost_show  {
+        grid-template-columns: repeat(4, 1fr);
