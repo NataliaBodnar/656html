@@ -1,6 +1,6 @@
 (function() {
     const slides = [
-        '<div><img src="img/briofillyum.svg" alt="Briofillyum"></div>',
+        '<div><img src="img/briofillyum.jpg" alt="Briofillyum"></div>',
         '<div><img src="img/cedar-pine.svg" alt="Cedar Pine"></div>',
         '<div><img src="img/crassula-ovata.svg" alt="Crassula Ovata"></div>',
         '<div><img src="img/elephant-bush.svg" alt="Elephant Bush"></div>'
