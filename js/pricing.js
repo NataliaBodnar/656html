@@ -29,7 +29,7 @@
 
     showCurrentSlide();
 
-    document.querySelector('.plants-pricing-carousel forward').addEventListener('click', nextSlide);
-    document.querySelector('.plants-pricing-carousel back').addEventListener('click', prevSlide);
+    document.querySelector('button.plants-pricing-carousel-button.forward').addEventListener('click', nextSlide);
+    document.querySelector('button.plants-pricing-carousel-button.back').addEventListener('click', prevSlide);
     window.addEventListener('resize', showCurrentSlide);
 };
