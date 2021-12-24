@@ -1,13 +1,13 @@
 (function() {
     const slides = [
-        '<div><img src="img/briofillyum.jpg" alt="Briofillyum"></div>',
-        '<div><img src="img/cedar-pine.svg" alt="Cedar Pine"></div>',
-        '<div><img src="img/crassula-ovata.svg" alt="Crassula Ovata"></div>',
-        '<div><img src="img/elephant-bush.svg" alt="Elephant Bush"></div>'
-        '<div><img src="img/graptosedum.svg" alt="Graptosedum"></div>'
-        '<div><img src="img/money-plant.svg" alt="Money Plant"></div>'
-        '<div><img src="img/philodendron.svg" alt="Philodendron"></div>'
-        '<div><img src="img/raphis-palm.svg" alt="Raphis Palm"></div>'
+        '<img src="img/briofillyum.jpg" alt="Briofillyum">',
+        '<img src="img/cedar-pine.svg" alt="Cedar Pine">',
+        '<img src="img/crassula-ovata.svg" alt="Crassula Ovata">',
+        '<img src="img/elephant-bush.svg" alt="Elephant Bush">'
+        '<img src="img/graptosedum.svg" alt="Graptosedum">'
+        '<img src="img/money-plant.svg" alt="Money Plant">'
+        '<img src="img/philodendron.svg" alt="Philodendron">'
+        '<img src="img/raphis-palm.svg" alt="Raphis Palm">'
     ];
 
     let currentSlide = 0;
@@ -34,6 +34,8 @@
         currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
         showCurrentSlide();
     }
+
+    showCurrentSlide();
 
     document.querySelector('button.plants-pricing-carousel__button.forward').addEventListener('click', nextSlide);
     document.querySelector('button.plants-pricing--carousel__button.back').addEventListener('click', prevSlide);
