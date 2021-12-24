@@ -15,14 +15,6 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.plants-pricing-carousel__slide');
         slideContainer.innerHTML = slides[currentSlide];
-        if (window.innerWidth > 600) {
-            const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
-            slideContainer.innerHTML += slides[secondSlide];
-            if (window.innerWidth > 900) {
-                const thirdSlide = secondSlide + 1 >= slides.length ? 0 : secondSlide + 1;
-                slideContainer.innerHTML += slides[thirdSlide];
-            }
-        }
     }
 
     function nextSlide() {
@@ -37,7 +29,7 @@
 
     showCurrentSlide();
 
-    document.querySelector('button.plants-pricing-carousel__button.forward').addEventListener('click', nextSlide);
-    document.querySelector('button.plants-pricing--carousel__button.back').addEventListener('click', prevSlide);
+    document.querySelector('.plants-pricing-carousel forward').addEventListener('click', nextSlide);
+    document.querySelector('.plants-pricing-carousel back').addEventListener('click', prevSlide);
     window.addEventListener('resize', showCurrentSlide);
 };
