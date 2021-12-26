@@ -1,13 +1,13 @@
 (function() {
     const slides = [
-        '<img src="img/briofillyum.svg" alt="Briofillyum">',
-        '<img src="img/cedar-pine.svg" alt="Cedar Pine">',
-        '<img src="img/crassula-ovata.svg" alt="Crassula Ovata">',
-        '<img src="img/elephant-bush.svg" alt="Elephant Bush">'
-        '<img src="img/graptosedum.svg" alt="Graptosedum">'
-        '<img src="img/money-plant.svg" alt="Money Plant">'
-        '<img src="img/philodendron.svg" alt="Philodendron">'
-        '<img src="img/raphis-palm.svg" alt="Raphis Palm">'
+        '<img src="img/plants-pricing/briofillyum.svg" alt="Briofillyum">',
+        '<img src="img/plants-pricing/cedar-pine.svg" alt="Cedar Pine">',
+        '<img src="img/plants-pricing/crassula-ovata.svg" alt="Crassula Ovata">',
+        '<img src="img/plants-pricing/elephant-bush.svg" alt="Elephant Bush">'
+        '<img src="img/plants-pricing/graptosedum.svg" alt="Graptosedum">'
+        '<img src="img/plants-pricing/money-plant.svg" alt="Money Plant">'
+        '<img src="img/plants-pricing/philodendron.svg" alt="Philodendron">'
+        '<img src="img/plants-pricing/raphis-palm.svg" alt="Raphis Palm">'
     ];
 
     let currentSlide = 0;
