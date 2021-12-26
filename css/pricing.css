@@ -131,7 +131,7 @@
 .btn-pricing-custom-order:hover {
   background-color: #191c18;
 }
-@media (min-width: 600px) {
+@media (max-width: <600px) {
  .plants-cost_show  {
    display: grid;
    grid-column-gap: 30px;
