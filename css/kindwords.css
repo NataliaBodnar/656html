@@ -1,7 +1,4 @@
-#kindwords{
-
-}
-.kindwords-wrapper{
+.kindwords-wrapper-grid-container{
     display: block;
     padding-top: 90px;
     padding-bottom: 90px;
@@ -19,7 +16,7 @@ width: 100%;
 margin: auto;
 
 }
-.kindwords-wall {
+.kindwords-picture {
     display: block;
     position: absolute;
     object-fit: cover;
@@ -30,22 +27,23 @@ margin: auto;
     height: 100%;
     background-color: transparent;
 }
-@media (max-width: 991px)
-.kindwords-background{
+@media (max-width: 991px){
+.kindwords-picture{
     padding-top: 60%;
 }
-@media (min-width: 768px)
-.kindwords-background{
+}
+@media (min-width: 768px){
+.kindwords-picture{
     object-fit: cover;
     object-position: 66.584% 13.76%;
-    
+}
 }
 .kindwords-content{
 display: block;
 padding: 180px 30px 0;
 
 }
-.kindwords-testimonials-grid{
+.kindwords-testimonials-text{
 display: flex;
 justify-content: flex-start;
 flex-direction: column;
@@ -64,7 +62,7 @@ text-align: left;
     font-weight: 400;
 
 }
-.kindwords-heading{
+.kindwords-header{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -76,7 +74,7 @@ text-align: left;
     letter-spacing: 0;
     font-weight: 700;
 }
-.kindwords-subheading{
+.kindwords-subheader{
     display: block;
     position: relative;
     margin-block-start: 1em;
@@ -92,19 +90,13 @@ text-align: left;
     display: block;
 
 }
-.testimonials-list-block{
-    position: relative;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    padding-inline-start: 40px;
-}
+
 .testimonials-list-block-component{
     position: relative;
     padding-top: 7.5px;
     padding-bottom: 7.5px;
 }
-.testimonials-personal{
+.testimonials-personal-container{
     display: flex;
     margin-right: -7.5px;
     margin-left: -7.5px;
@@ -112,8 +104,8 @@ text-align: left;
     max-width: 100%;
     text-align: center;
 }
-.testimonials-photo {
-    
+.testimonials-photo-container {
+    display: block;
 }
 .testimonials-photo-person {
     display: inline-block;
@@ -133,7 +125,7 @@ text-align: left;
     text-align: left;
     min-width: 40%;
 }
-.person-name{
+.person-name-container-header{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -144,7 +136,7 @@ text-align: left;
     max-width: 100%;
     margin-right: 5px;
 }
-.person-feedback{
+.person-feedback-container-text{
     display: block;
     position: relative;
     max-width: 100%;
